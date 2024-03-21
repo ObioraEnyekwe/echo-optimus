@@ -1,9 +1,0 @@
-template-file-path: parameter2.yaml
-parameters:
-  AccountId: 0cd826b2-ff1b-4d21-afdb-80d1c3a06f35
-  Username: finalvini@gmail.com
-  WorkspaceName: c-13-capstone
-  Password: '****'
-tags:
-  AppManagerCFNStackKey: >-
-    arn:aws:cloudformation:us-east-1:850722104166:stack/databricks-workspace-stack-8ff78/2b1a7340-e62b-11ee-838f-0eedfeacfaa7
