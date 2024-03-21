@@ -1,1 +1,2 @@
 This is a test to show that i have been able to merge my local repo with git hub
+adding a second line to my txt doc
