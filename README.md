@@ -1,7 +1,11 @@
 This capstone project involves:
+Building an IT Infrastructure for a client.
+He wants to deploy a single user data bricks cluster in the infrasture that is highly available and has a disaster recovery strategy in the event of failure.
+He wants you to provide a workable architectural solution, code-based and a deployable scripts leveraging any tools of your choice.
 
+Recommendation:
 
-The Research on our Client should go for AWS cloud service. 
+After extensive research, we are proposing that our Client should go for AWS cloud service. 
 AWS is one of the leading cloud service providers, but there are several differences between AWS and other cloud service providers like Microsoft Asure and GCP.
 1.⁠ ⁠Market Share and Maturity: AWS is the oldest and most mature cloud provider with the largest market share.
 2.⁠ ⁠Services Ofered: AWS offers unique services and features such as Lambda for serverless computing.
