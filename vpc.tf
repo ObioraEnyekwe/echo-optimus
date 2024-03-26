@@ -1,3 +1,17 @@
+#cidr block for us to use for VPC config: 10.0.0.0/25 cidr block
+#VPC tag name: capstone-vpc
+#private subnet: capstone-private-sn-1
+#cidr: 10.0.0.0/26
+#private subnet2: capstone-private-sn-2
+#route table: capstone-rtb
+#internet gateway: capstone-igw
+#NAT gateway: capstone-natgw
+#s3: capstone-s3-bucket
+#databricks: capstone-databricks-cluster
+#databricks: capstone-databricks-workspace
+
+
+
 #Provider definitions
 terraform {
   required_providers {
