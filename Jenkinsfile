@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Set Execute Permission') {
+        stage('Set Execute Permission Terr') {
             steps {
                 sh 'chmod +x installation_files/terraform.sh'
             }
@@ -17,9 +17,9 @@ pipeline {
                 sh './installation_files/terraform.sh'
             }
         }
-        stage('Set Execute Permission') {
+        stage('Set Execute Permission AWS') {
             steps {
-                sh 'chmod +x installation_files/terraform.sh'
+                sh 'chmod +x installation_files/aws-cli.sh'
 
             }
         }
