@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Run Terraform Script') {
             steps {
-                sh './installation_files/terraform.sh'
+                sh 'yes | ./installation_files/terraform.sh'
             }
         }
         stage('Set Execute Permission AWS') {
@@ -21,7 +21,7 @@ pipeline {
 
         stage('Install AWS CLI') {
             steps {
-                sh './installation_files/aws-cli.sh'
+                sh 'yes | ./installation_files/aws-cli.sh'
             }
         }
     }
