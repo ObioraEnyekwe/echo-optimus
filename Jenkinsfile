@@ -1,8 +1,5 @@
 pipeline{
     agent any
-    tools{
-        
-    }
     stages{
         stage ('Install Terraform'){
             steps{ 
@@ -13,9 +10,6 @@ pipeline{
             steps{
                 sh 'installation_files/aws-cli.sh'
             }
-        }
-
-           
-           
+        }         
     }
 }
