@@ -24,5 +24,12 @@ pipeline {
                 sh 'yes | ./installation_files/aws-cli.sh'
             }
         }
+        stage('Terraform Deployment'){
+            steps {
+                sh '''
+                    terraform init
+                '''            
+            }
+        }
     }
 }
