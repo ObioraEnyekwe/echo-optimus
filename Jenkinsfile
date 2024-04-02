@@ -28,6 +28,7 @@ pipeline {
             steps {
                 sh '''
                     terraform init
+                    terraform delete
                     terraform plan
                     terraform apply -auto-approve
                 '''            
