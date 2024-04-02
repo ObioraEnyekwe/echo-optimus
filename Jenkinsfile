@@ -27,7 +27,7 @@ pipeline {
         stage('Terraform Deployment'){
             steps {
                 sh '''
-                    terraform destroy
+                    yes | terraform destroy
                     terraform init
                     terraform plan
                     terraform apply -auto-approve
