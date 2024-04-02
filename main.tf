@@ -14,3 +14,13 @@ locals {
 
   }
 }
+
+module "vpc" {
+  source  = "terraform-aws-modules/vpc/aws"
+  version = "3.2.0"
+  cidr    = "192.0.0.0/25" 
+  enable_dns_support = true
+  enable_dns_hostnames = true 
+  # Add module configuration options here
+}
+
